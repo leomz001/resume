@@ -26,8 +26,14 @@ img:hover {
 </style>
     
     
-    <src='https://kit.fontawesome.com/a076d05399.js'></script>
+     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
+     <script>
+        function Home() {
+          window.open("https://leomz.xyz/");
+        }
+        </script>
+
     
 </head>
 
@@ -40,9 +46,10 @@ img:hover {
         <div id="mobile-menu-close">
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
+           
         <ul id="menu" class="shadow">
-            <li>
-                <a href="https://leomz.xyz/">Home</a>
+            <li style="color:rgb(137, 133, 102);">
+                <button onclick="Home()">Home</button>
             </li>
             <li>
                 <a href="#about">About</a>
